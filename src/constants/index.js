@@ -28,11 +28,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "O mnie",
+    title: "O nas",
   },
   {
     id: "work",
-    title: "Projekty",
+    title: "Nasze produkty",
   },
   {
     id: "contact",
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Maślane Ciastka | Happy Cookies",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Ekologiczny Brykiet | Eco-coco",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Ekologiczny Pelet | Eco-pelet",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Euro palety",
     icon: creator,
   },
 ];
