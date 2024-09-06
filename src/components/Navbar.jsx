@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Patryk &nbsp;
-            <span className='sm:block hidden'> | Web developer</span>
+            GlobalZone &nbsp;
+            <span className='sm:block hidden'> | Goods impoter</span>
           </p>
         </Link>
 
