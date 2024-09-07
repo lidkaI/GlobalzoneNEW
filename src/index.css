@@ -131,6 +131,14 @@
   background: #0c112952
 }
 
+.arrow-left {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  content: '\f078';
+  font-family: 'FontAwesome';
+  display: inline-block;
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

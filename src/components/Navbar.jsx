@@ -96,10 +96,28 @@ const Navbar = () => {
         </div>
       </div>
       <div className="background-bottom-nav p-2 border-nav w-full flex items-center justify-center">
-        <div className="m-1">Wegiel</div>
-        <div className="m-1">Ciastka</div>
-        <div className="m-1">Pelet</div>
-        <div className="m-1">Palety</div>
+      <Link to="">
+      <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Wegiel</div>
+        <h3 className="m-1 flex item-center justify-center">↕</h3>
+        </div>
+        </Link>
+        <Link to="">
+        <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Ciastka</div>
+        <h3 className="m-1 flex item-center justify-center">↕</h3>
+        </div>
+        </Link>
+        <Link to="">
+        <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Pelet</div>
+        </div>
+        </Link>
+        <Link to="">
+        <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Palety</div>
+        </div>
+        </Link>
       </div>
     </nav>
   );
