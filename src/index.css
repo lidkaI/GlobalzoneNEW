@@ -65,6 +65,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.bg-primary-dark {
+  background: #070a18d2;
+}
+
 .green-text-gradient {
   background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -114,6 +118,27 @@
   -webkit-text-fill-color: transparent;
 }
 
+.border-nav {
+  border: 1px solid #cbd5e11a;;
+}
+
+.bg-primary2 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.background-bottom-nav {
+  background: #0c112952
+}
+
+.arrow-left {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  content: '\f078';
+  font-family: 'FontAwesome';
+  display: inline-block;
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

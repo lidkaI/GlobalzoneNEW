@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
+      if (scrollTop > 50) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -29,11 +29,11 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+      } w-full flex-col border-nav flex items-center fixed top-0 z-20 pt-5 ${
+        scrolled ? "bg-primary2" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='pb-5 w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Patryk &nbsp;
-            <span className='sm:block hidden'> | Web developer</span>
+            GlobalZone &nbsp;
+            <span className='sm:block hidden'> | Goods impoter</span>
           </p>
         </Link>
 
@@ -95,6 +95,42 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <nav className="background-bottom-nav w-full">
+      <div className="">
+        <ul className="p-2 border-nav w-full flex items-center justify-center">
+          <li>
+          <Link to="">
+      <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Wegiel</div>
+        <h3 className="m-1 flex item-center justify-center">↕</h3>
+        </div>
+        </Link>
+          </li>
+          <li>
+          <Link to="">
+        <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Ciastka</div>
+        <h3 className="m-1 flex item-center justify-center">↕</h3>
+        </div>
+        </Link>
+          </li>
+          <li>
+          <Link to="">
+        <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Pelet</div>
+        </div>
+        </Link>
+          </li>
+          <li>
+          <Link to="">
+        <div className="h-10 w-32 p-2 m-1 flex">
+        <div className="flex item-center justify-center">Palety</div>
+        </div>
+        </Link>
+          </li>
+        </ul>
+      </div>
+      </nav>
     </nav>
   );
 };

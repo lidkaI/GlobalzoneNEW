@@ -39,15 +39,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Wprowadzenie</p>
-        <h2 className={styles.sectionHeadText}>Umiejetnosci.</h2>
+        <p className={styles.sectionSubText}>Import.</p>
+        <h2 className={styles.sectionHeadText}>Nasze produkty.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Jestem wykwalifikowanym programistą z doświadczeniem w TypeScript i JavaScript oraz znajomością frameworków takich jak React, Node.js i Three.js. Szybko się uczę i blisko współpracuję z klientami, aby tworzyć wydajne, skalowalne i przyjazne dla użytkownika rozwiązania, które rozwiązują rzeczywiste problemy. Współpracujmy, aby wcielić Twoje pomysły w życie!
+        Przykładowy tekst o importowanych produktach
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
