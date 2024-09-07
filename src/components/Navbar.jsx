@@ -95,30 +95,42 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="background-bottom-nav p-2 border-nav w-full flex items-center justify-center">
-      <Link to="">
+      <nav className="background-bottom-nav w-full">
+      <div className="">
+        <ul className="p-2 border-nav w-full flex items-center justify-center">
+          <li>
+          <Link to="">
       <div className="h-10 w-32 p-2 m-1 flex">
         <div className="flex item-center justify-center">Wegiel</div>
         <h3 className="m-1 flex item-center justify-center">↕</h3>
         </div>
         </Link>
-        <Link to="">
+          </li>
+          <li>
+          <Link to="">
         <div className="h-10 w-32 p-2 m-1 flex">
         <div className="flex item-center justify-center">Ciastka</div>
         <h3 className="m-1 flex item-center justify-center">↕</h3>
         </div>
         </Link>
-        <Link to="">
+          </li>
+          <li>
+          <Link to="">
         <div className="h-10 w-32 p-2 m-1 flex">
         <div className="flex item-center justify-center">Pelet</div>
         </div>
         </Link>
-        <Link to="">
+          </li>
+          <li>
+          <Link to="">
         <div className="h-10 w-32 p-2 m-1 flex">
         <div className="flex item-center justify-center">Palety</div>
         </div>
         </Link>
+          </li>
+        </ul>
       </div>
+      </nav>
     </nav>
   );
 };

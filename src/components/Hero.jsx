@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
 
       
-    <Spline scene="https://prod.spline.design/rNKQ4evbTav4znyU/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/rNKQ4evbTav4znyU/scene.splinecode" />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
