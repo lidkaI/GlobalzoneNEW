@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Euro palety",
+    title: "Euro palety | Euro-palets",
     icon: creator,
   },
 ];

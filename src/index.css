@@ -66,7 +66,7 @@
 }
 
 .bg-primary-dark {
-  background: #070a18;
+  background: #070a18d2;
 }
 
 .green-text-gradient {
@@ -116,6 +116,19 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.border-nav {
+  border: 1px solid #cbd5e11a;;
+}
+
+.bg-primary2 {
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.background-bottom-nav {
+  background: #0c112952
 }
 
 /* canvas- styles */
